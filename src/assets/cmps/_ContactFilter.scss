@@ -1,0 +1,26 @@
+.contact-filter{
+    display: flex;
+    // background-color: $clr1;
+    background-color: white;
+    box-shadow: 0 0 6px 2px #ddd;
+    padding: 10px;
+    // border-radius: 20px;
+    justify-content: space-between;
+    
+    input[type=search]{
+        outline: 0;
+        font-size: 1.2em;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        padding-left: 10px;
+    }
+    a{
+        // background-color: #fff;
+        // border-radius: 10px;
+        padding: 5px;
+        // border-radius: 1px solid #ddd;
+        img{
+            scale: 0.9;
+        }
+    }
+}

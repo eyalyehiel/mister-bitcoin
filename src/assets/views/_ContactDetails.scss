@@ -1,0 +1,35 @@
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 10px;
+    align-items: start;
+    @media(max-width:400px){
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .contact-info {
+        padding: 20px;
+        color: gray;
+        background-color: white;
+        box-shadow: 0 0 6px 2px #ddd;
+        a {
+            text-decoration: none;
+            color: gray;
+            &:visited {
+                color: gray;
+            }
+            &:hover {
+                color: $clr3;
+            }
+        }
+    }
+    .transfer-fund {
+        color: gray;
+        background-color: white;
+        box-shadow: 0 0 6px 2px #ddd;
+        padding: 20px;
+    }
+}

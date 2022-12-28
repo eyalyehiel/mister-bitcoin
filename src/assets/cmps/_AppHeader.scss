@@ -1,0 +1,66 @@
+.app-header {
+    padding: 0 35px;
+    background-color: $clr1;
+    .header-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1440px;
+        margin: 0 auto;
+        height: 100%;
+
+    }
+    a{
+        text-decoration: none;
+    }
+    h1 {
+        margin: 0;
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    nav {
+        display: flex;
+        height: 100%;
+        gap: 1.3em;
+        @media(max-width: 525px){
+            position: absolute;
+            flex-direction: column;
+            background-color: $clr1;
+            height: max-content;
+            z-index: 10;
+            top: 10vh;
+            width: 100%;
+            left: 0;
+            align-items: center;
+            gap: 0;
+            >*{
+                padding: 20px;
+                width: 100% !important;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+        a {
+            width: 100px;
+            color: white;
+            // color: $clr3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.3em;
+            text-decoration: none;
+            // border-radius: 1.3em;
+            &:hover{
+                color: $clr4;
+            }
+        }
+    }
+    .menu-btn{
+        border: 0;
+        background-color: transparent;
+        @media(min-width: 525px){
+            display: none;
+        }
+    }
+}

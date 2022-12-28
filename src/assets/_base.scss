@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    // color: white !important
+}
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.App {
+    max-height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+
+    .main-container {
+        max-height: 90vh;
+        padding: 15px;
+        display: grid;
+        gap: 15px;
+        @media (max-width: 400px) {
+            gap: 0;
+        }
+        // max-width: 1440px;
+        // margin: 0 auto;
+        // grid-template-columns: 80px 1fr 80px;
+    }
+}

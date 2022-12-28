@@ -1,0 +1,28 @@
+.contact-edit{
+    display: grid;
+    justify-items: center;
+    align-items: baseline;
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    form{
+        padding: 20px;
+        // border-radius: 15px;
+        box-shadow: 0 0 10px 2px #000;
+        background-color: $clr1;
+        display: grid;
+        gap: 10px;
+        background-color: white;
+        box-shadow: 0 0 6px 2px #ddd;
+        // justify-content: baseline;
+        justify-items: baseline;
+        
+            input,button{
+
+                padding: 5px;
+                font-size: 20px;
+                color: gray ;
+            }
+        
+    }
+}

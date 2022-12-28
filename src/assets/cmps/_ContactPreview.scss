@@ -1,0 +1,38 @@
+.contact-preview {
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 0 0 6px 2px #ddd;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        color: gray;
+        &:visited {
+            color: gray;
+        }
+        &:hover {
+            color: $clr3;
+        }
+    }
+    h3 {
+        margin: 0;
+    }
+    &:hover {
+        button {
+            opacity: 1;
+        }
+    }
+    button {
+        opacity: 0;
+        color: $clr1 !important;
+        padding: 5px;
+        cursor: pointer;
+        border: 0;
+        transition: opacity 0.3s;
+        img {
+            scale: 0.7;
+        }
+    }
+}

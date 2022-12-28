@@ -1,0 +1,12 @@
+.contact-view{
+    // padding: 20px;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    grid-template-rows: .07fr 1fr;
+    gap: 10px;
+    // overflow: auto;
+}
